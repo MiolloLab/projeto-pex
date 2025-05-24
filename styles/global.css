@@ -5,11 +5,11 @@
 }
 
 :root {
-  --brand-color: #de4a74;
+  --brand-color: #de4a62;
   --background-color: #fff;
   --surface-color: #fff9f2;
-  --sketeltone-color: #fff0db;
-  --meio-ber-color: #f8d6ad;
+  --barras-color: #fff0db;
+  --meio-bege-color: #f8d6ad;
   --transp-objs-color: #f8d6ad7c;
   --texto-primario-color: #49362c;
   --texto-secundario-color: #a3825f;
@@ -24,12 +24,32 @@
   --text:16px/1.5 var(--font-family);
   --text-md: 14px/1.75 var(--font-family);
   --text-sm: 12px/1.75 var(--font-family);
-  
-
 }
 
 body {
   font: var(--text);
   color: var(--texto-secundario-color);
   background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--brand-color);
+  /* font-weight: bold; */
+}
+
+.container
+{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-barras-color {
+  background-color: var(--barras-color);
 }
