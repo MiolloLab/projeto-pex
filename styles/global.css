@@ -4,3 +4,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --brand-color: #de4a74;
+  --background-color: #fff;
+  --surface-color: #fff9f2;
+  --sketeltone-color: #fff0db;
+  --meio-ber-color: #f8d6ad;
+  --transp-objs-color: #f8d6ad7c;
+  --texto-primario-color: #49362c;
+  --texto-secundario-color: #a3825f;
+  --accent-color-a: #3ff2a1;
+  --accent-color-b: #ffb431;
+}
+
+body {
+  color: var(--texto-secundario-color);
+  background-color: var(--background-color);
+}
