@@ -15,9 +15,21 @@
   --texto-secundario-color: #a3825f;
   --accent-color-a: #3ff2a1;
   --accent-color-b: #ffb431;
+
+  --font-family: "Nunito Sans", sans-serif;
+  --text-super-lg-desk: bold 72px/1.2 var(--font-family);
+  --text-heading1-desk: bold 32px/1.2 var(--font-family);
+  --text-heading2-desk:  24px/1.2 var(--font-family);
+  --text-heading3-desk: italic bold  20px/1.2 var(--font-family);  
+  --text:16px/1.5 var(--font-family);
+  --text-md: 14px/1.75 var(--font-family);
+  --text-sm: 12px/1.75 var(--font-family);
+  
+
 }
 
 body {
+  font: var(--text);
   color: var(--texto-secundario-color);
   background-color: var(--background-color);
 }
