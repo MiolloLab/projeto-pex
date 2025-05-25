@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  padding-block: 32px;
+}
+
+.destaques {
+  padding-block: 32px;
+  background-color: var(--accent-color-a);
+  height: 600PX;
+}
+
+.card-destaque {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: var(--accent-color-b);
+}
+
+
+
+/* RESPONSIVO ----------------- */ 
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding-block: 16px;
+  }
+
+  .destaques {
+    height: auto;
+  }
+
+  .card-destaque {
+    width: 100%;
+    height: auto;
+  }
+}
