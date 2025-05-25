@@ -17,13 +17,34 @@
   --accent-color-b: #ffb431;
 
   --font-family: "Nunito Sans", sans-serif;
-  --text-super-lg-desk: bold 72px/1.2 var(--font-family);
+  --text-super-lg-desk: bold 72px/1 var(--font-family);
   --text-heading1-desk: bold 32px/1.2 var(--font-family);
   --text-heading2-desk:  24px/1.2 var(--font-family);
-  --text-heading3-desk: italic bold  20px/1.2 var(--font-family);  
+  --text-heading3-desk: italic bold  20px/1.2 var(--font-family); 
+  --text-btn: bold  20px/1.2 var(--font-family);  
   --text:16px/1.5 var(--font-family);
   --text-md: 14px/1.75 var(--font-family);
   --text-sm: 12px/1.75 var(--font-family);
+}
+
+h1 {
+  font: var(--text-heading1-desk);
+  color: var(--texto-primario-color);
+}
+
+h2 {
+  font: var(--text-heading2-desk);
+  color: var(--texto-primario-color);
+}
+
+h3 {
+  font: var(--text-heading3-desk);
+  color: var(--texto-secundario-color);
+}
+
+p {
+  font: var(--text);
+  color: var(--texto-secundario-color);
 }
 
 body {
@@ -48,8 +69,46 @@ a:hover {
   padding-inline: 32px;
   max-width: 1280px;
   margin-inline: auto;
+  width: 100%;
 }
 
 .bg-barras-color {
   background-color: var(--barras-color);
 }
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+  /* width: 500px; */
+  height: 500px;
+}
+
+
+.btn-cta {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+  padding: 16px 22px;
+  border-radius: 8px;
+  font: var(--text-btn);
+  transition: all .3s ease-in-out;
+  display: inline-block; 
+}
+
+.btn-cta:hover {
+  background-color: var(--accent-color-a);
+  color: var(--background-color);
+  transform: scale(1.02);
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .btn-cta {
+    padding: 10px 16px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+

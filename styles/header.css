@@ -1,0 +1,58 @@
+.hero-img{
+  height: 400px;
+  background-image: url('../assets/images/hero-home.jpg');
+  background-size: cover;
+  background-position: center;
+  /* ...outras regras... */
+  position: relative;
+}
+
+.hero-img > .container {
+  height: 100%;
+}
+
+.hero-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Centraliza verticalmente */
+  align-items: center;       /* Centraliza horizontalmente */
+  height: 100%;
+  gap: 32px;
+}
+
+.hero-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   /* Centraliza horizontalmente */
+  align-items: center;       /* Centraliza verticalmente */
+  height: 100%;
+  gap: 32px;
+}
+
+.h1-hero-imagem{
+  font: var(--text-super-lg-desk);
+  color: var(--background-color);
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+
+
+/*  Regras para o Responsivo */
+@media (max-width: 768px) {
+  .hero-img {
+    height: 220px;
+  }
+  .h1-hero-imagem {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero-vertical, .hero-horizontal {
+    gap: 16px;
+  }
+
+    .hero-horizontal {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
