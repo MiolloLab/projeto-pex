@@ -1,4 +1,4 @@
-// import '/global.js';
+
 import '/scripts/nav.js';
-// import '/header.js';
-// import '/main.js';
+import '/scripts/form.js';
+import '/scripts/historias.js'

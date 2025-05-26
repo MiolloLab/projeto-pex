@@ -1,13 +1,42 @@
-.hero-img{
+.hero-img-home{
   height: 400px;
   background-image: url('../assets/images/hero-home.jpg');
   background-size: cover;
   background-position: center;
-  /* ...outras regras... */
   position: relative;
 }
 
-.hero-img > .container {
+.hero-img-quem{
+  height: 400px;
+  background-image: url('../assets/images/detalhe-manejo.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-img-artistas{
+  height: 400px;
+  background-image: url('../assets/images/equipe-artistas-01-b.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-img-historias{
+  height: 400px;
+  background-image: url('../assets/images/hero-historias.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-img-quem h3{
+  text-align: center;
+  color: var(--background-color)
+}
+
+.hero-img-home > .container,
+.hero-img-quem > .container {
   height: 100%;
 }
 
@@ -29,7 +58,7 @@
   gap: 32px;
 }
 
-.h1-hero-imagem{
+.h1-hero-home{
   font: var(--text-super-lg-desk);
   color: var(--background-color);
   text-align: center;

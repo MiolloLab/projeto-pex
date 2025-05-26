@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marmita-Livro</title>
+
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="/styles/index.css">
+  <script type="module" src="scripts/index.js" defer></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="bg-barras-color">
+    <nav class="container">
+      <div id="grupo-logo">
+        <a href="index.html" id="logo">
+          <img src="assets/images/LogoTemp.png" alt="logo da marmita livro">
+        </a>
+        <span>Frente Popular Marmita-Livro</span>
+      </div>
+      <button id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+      <ul id="menu-primario">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quem.html">Quem somos</a></li>
+        <li><a href="historias.html">Nossas histórias</a></li>
+        <li><a href="ajudar.html">Como ajudar</a></li>
+        <li><a href="artistas.html">Nossos artistas</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main class="bg-surface-color">
+ <div class="container">
+   <h1>Fale com a gente! <br>
+    Estamos abertos a sugestões <br>
+    e vários tipos de ajuda.
+   </h1>
+
+   <section class="section-gallery">
+
+     <section class="section-50"> 
+       <form id="contato-form" class="form-contato">
+         <div class="form-group">
+           <label for="nome" class="form-label">Nome:</label>
+           <input type="text" id="nome" name="nome" class="form-input" required>
+         </div>
+         <div class="form-group">
+           <label for="email" class="form-label">E-mail:</label>
+           <input type="email" id="email" name="email" class="form-input" required>
+         </div>
+         <div class="form-group">
+           <label for="mensagem" class="form-label">Mensagem:</label>
+           <textarea id="mensagem" name="mensagem" rows="5" class="form-textarea" required></textarea>
+         </div>
+         <button type="submit" class="btn-cta-1">Enviar</button>
+       </form>
+     </section>
+     <section class="section-50">
+        <div class="baixo-wrapper">
+          <div class="baixo">
+            <a href="https://wa.me/5561984183182" target="_blank" style="display:inline-block; margin-bottom: 4px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="16" r="16" fill="#25D366"/>
+                <path d="M23.472 19.339c-.355-.177-2.104-1.037-2.429-1.156-.325-.119-.562-.177-.799.177-.237.355-.914 1.156-1.122 1.393-.207.237-.412.266-.767.089-.355-.178-1.5-.553-2.857-1.763-1.056-.943-1.77-2.104-1.98-2.459-.207-.355-.022-.546.155-.723.159-.158.355-.412.532-.619.178-.207.237-.355.355-.592.119-.237.06-.443-.03-.62-.089-.178-.799-1.924-1.093-2.637-.288-.692-.581-.597-.799-.608-.207-.009-.443-.011-.679-.011-.237 0-.62.089-.944.443-.325.355-1.237 1.209-1.237 2.946 0 1.737 1.267 3.417 1.444 3.654.178.237 2.5 3.823 6.055 5.209.847.291 1.507.464 2.023.593.85.203 1.624.174 2.236.106.682-.075 2.104-.861 2.403-1.693.296-.832.296-1.544.207-1.693-.089-.148-.325-.237-.68-.414z" fill="#fff"/>
+              </svg>
+            </a>
+            <h2>
+              Ou converse<br>
+              diretamente pelo <br>
+              WhatsApp
+            </h2>
+          </div>
+    </div>
+</section>
+   </section>
+  <div id="mensagem-sucesso" class="form-sucesso" style="display:none;">
+    Sua mensagem foi enviada com sucesso!
+  </div>
+</div>
+  </main>
+  <div class="bg-brand-color">
+    <footer class="container">
+      <a href="#">
+        <span>
+          MarmitaLivro&copy;2025
+        </span>
+      </a>
+      <a href="https://www.instagram.com/moisescrivelaro/" target="_blank">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 0px;">
+            <rect width="24" height="24" rx="6" fill="none"/>
+            <path d="M12 8.4A3.6 3.6 0 1 0 12 15.6A3.6 3.6 0 1 0 12 8.4Z" fill="currentColor"/>
+            <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/>
+            <rect x="4.8" y="4.8" width="14.4" height="14.4" rx="4.2" stroke="currentColor" stroke-width="1.2"/>
+          </svg>
+          moisescrivelaro
+        </span>      
+      </a>
+      <a href="termos.html">
+        <span>
+          Termos de uso
+        </span>     
+      </a>
+      <a href="politica.html">
+        <span>
+          Política de privacidade
+        </span>     
+      </a>
+    </footer>
+  </div>
+</body>
+</html>

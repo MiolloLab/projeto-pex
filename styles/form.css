@@ -1,0 +1,86 @@
+.form-contato {
+  max-width: 480px;
+  padding: 32px 24px;
+  background: var(--barras-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-label {
+  font: var(--text-heading-3);
+  color: var(--brand-color);
+  margin-bottom: 2px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: border-color 0.2s;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-textarea {
+  min-height: 240px;
+}
+
+
+.form-input:focus,
+.form-input:focus-visible,
+.form-input:active,
+.form-input:visited,
+.form-textarea:focus,
+.form-textarea:focus-visible,
+.form-textarea:active,
+.form-textarea:visited {
+  outline: none !important;
+  box-shadow: none !important;
+  background: #fff;
+}
+
+button,
+.form-btn,
+.btn-cta-1 {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+button:focus,
+button:focus-visible,
+button:active,
+button:visited,
+.form-btn:focus,
+.form-btn:focus-visible,
+.form-btn:active,
+.form-btn:visited,
+.btn-cta-1:focus,
+.btn-cta-1:focus-visible,
+.btn-cta-1:active,
+.btn-cta-1:visited {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-sucesso {
+  color: #2e7d32;
+  background: #e8f5e9;
+  border: 1px solid #b2dfdb;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 18px;
+  text-align: center;
+  font-weight: 600;
+}

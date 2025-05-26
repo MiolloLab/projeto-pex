@@ -1,0 +1,14 @@
+.juri {
+  padding-block: 10px;
+}
+.juri li {
+  list-style: none;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.assinatura {
+  padding-bottom: 32px;
+  /* background-color: #f0f0f0; */
+  text-align: center;
+}

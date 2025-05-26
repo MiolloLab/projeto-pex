@@ -18,7 +18,7 @@
   --accent-color-b: #ffb431;
 
   --font-family: "Nunito Sans", sans-serif;
-  --text-super-lg-desk: bold 72px/1 var(--font-family);
+  --text-super-lg-desk: bold 64px/1 var(--font-family);
   --text-heading1-desk: bold 32px/1.2 var(--font-family);
   --text-heading2-desk:  24px/1.2 var(--font-family);
   --text-heading3-desk: italic bold  20px/1.2 var(--font-family); 
@@ -46,9 +46,15 @@ h3 {
   color: var(--texto-secundario-color);
 }
 
+.h-center {
+  text-align: center;
+  line-height: 150%;
+}
+
 p {
   font: var(--text);
   color: var(--texto-secundario-color);
+  padding-block: 8px;
 }
 
 body {
@@ -98,6 +104,8 @@ a:hover {
   font: var(--text-btn);
   transition: all .3s ease-in-out;
   display: inline-block; 
+  outline: none;
+  box-shadow: none;
 }
 
 .btn-cta-1:hover {
@@ -105,6 +113,8 @@ a:hover {
   color: var(--background-color);
   transform: scale(1.02);
   text-decoration: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .btn-cta-2 {
@@ -115,6 +125,8 @@ a:hover {
   font: var(--text-btn);
   transition: all .3s ease-in-out;
   display: inline-block; 
+  outline: none;
+  box-shadow: none;
 }
 
 .btn-cta-2:hover {
@@ -122,6 +134,13 @@ a:hover {
   color: var(--background-color);
   transform: scale(1.02);
   text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+button:focus,
+.btn-cta-1:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .hr-divisor {
