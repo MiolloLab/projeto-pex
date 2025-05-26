@@ -19,7 +19,7 @@
 
   --font-family: "Nunito Sans", sans-serif;
   --text-super-lg-desk: bold 64px/1 var(--font-family);
-  --text-heading1-desk: bold 32px/1.2 var(--font-family);
+  --text-heading1-desk: bold 32px/1.05 var(--font-family);
   --text-heading2-desk:  24px/1.2 var(--font-family);
   --text-heading3-desk: italic bold  20px/1.2 var(--font-family); 
   --text-btn: bold  20px/1.2 var(--font-family);  
@@ -31,7 +31,7 @@
 h1 {
   font: var(--text-heading1-desk);
   color: var(--texto-primario-color);
-  padding-block:20px;
+  padding-block:40px 20px;
   /* max-width: 320px;   */
 }
 
