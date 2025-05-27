@@ -1,10 +1,10 @@
-@import url(global.css);
-@import url(nav.css);
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);
-@import url(juri.css);
-@import url(form.css);
-@import url(historias.css);
+@import url(./global.css);
+@import url(./nav.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./juri.css);
+@import url(./form.css);
+@import url(./historias.css);
 /* @import url(about.css);
 @import url(404.css); */
