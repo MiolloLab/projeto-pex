@@ -1,4 +1,4 @@
 
-import './scripts/nav.js';
-import './scripts/form.js';
-import './scripts/historias.js';
+import './nav.js';
+import './form.js';
+import './historias.js';
