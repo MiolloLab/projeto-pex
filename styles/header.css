@@ -84,4 +84,11 @@
     flex-direction: column;
     gap: 16px;
   }
+
+  .h1-hero-home{
+  font: var(--text-heading1-desk);
+  color: var(--background-color);
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
 }
